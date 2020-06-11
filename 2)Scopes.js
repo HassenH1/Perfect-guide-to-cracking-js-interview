@@ -56,3 +56,4 @@ mygenerator.next(); // returns "b"
 mygenerator.next(); // returns "o"
 mygenerator = generator("toon");
 mygenerator.next(); // returns "t"
+//Here, the scope is playing an important role. A closure is a function that returns another function and wraps data. The above string generator qualifies for a closure. The index value is preserved between multiple function calls. The internal function defined can access the variables defined in the parent function. This is a different scope. If you defined one more function in the second level function, that can access all parent’s variables.
