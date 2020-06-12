@@ -7,3 +7,5 @@ for (i of Object.keys(marks)) {
   console.log(marks[i], "<----------this is?"); //98, 95, 91
   if (marks[i] > highScore) highScore = marks[i];
 }
+
+// Object.values returns the list of values of an object.

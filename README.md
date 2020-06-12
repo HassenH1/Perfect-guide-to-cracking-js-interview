@@ -1,6 +1,6 @@
 # Perfect-guide-to-cracking-js-interview
 
-Learning these ten basic elements in depth to turn a JS interview favorable to myself.
+Learning these basic elements in depth to turn a JS interview favorable to myself.
 
 ### 1) Understand the JS functions well
 
@@ -9,3 +9,5 @@ Learning these ten basic elements in depth to turn a JS interview favorable to m
 ### 3) Understand this keyword well(global, function and object scopes)
 
 ### 4) Understand objects well
+
+### 5) Understand Prototypical Inheritance well
