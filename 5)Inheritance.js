@@ -19,3 +19,5 @@ var crocodile = new Animal("crocodile", animalGroups.REPTILE);
 Animal.prototype.shout = function () {
   console.log(this.name + "is " + this.sound + "ing...");
 };
+
+//unfinished

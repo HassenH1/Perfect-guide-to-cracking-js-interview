@@ -11,3 +11,5 @@ Learning these basic elements in depth to turn a JS interview favorable to mysel
 ### 4) Understand objects well
 
 ### 5) Understand Prototypical Inheritance well
+
+### 6)Pass By Value And Pass By Reference In JavaScript
