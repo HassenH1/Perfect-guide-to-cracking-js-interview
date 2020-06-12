@@ -7,3 +7,5 @@ Learning these ten basic elements in depth to turn a JS interview favorable to m
 ### 2) Understand JavaScript scope well (Closures as well)
 
 ### 3) Understand this keyword well(global, function and object scopes)
+
+### 4) Understand objects well
