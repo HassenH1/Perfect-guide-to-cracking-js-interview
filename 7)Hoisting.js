@@ -7,7 +7,7 @@ console.log(car); //Prints "BMW"
 
 // When the code is executed, then it goes through a compiler. During this phase, scope gets defined and the variable and function declarations are moved to the top of their scope. If they are defined inside a function, they are moved to the top of this function, and if they are outside a function, to the top of the global scope.
 
-// Function Declarations Are Hoisted, but Function Expressions Are Not in JavaScript
+// Function Declarations Are Hoisted, but Function Expressions Are Not in JavaScript -----------------
 
 carDetails();
 
@@ -28,3 +28,13 @@ function carDetails() {
 }
 
 carDetails(); // Prints “AUDI”
+
+// the main thing you should know that is functions are hoisted first, and then variables.
+// Example
+var color;
+
+function color() {
+  console.log("BLACK");
+}
+
+console.log(color); // Prints “function color(){ console.log(“BLACK”);}” cuz functions are hoisted first
