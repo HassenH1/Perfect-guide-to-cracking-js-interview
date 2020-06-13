@@ -4,7 +4,7 @@
 // Block scope(Introduced in ES6)
 
 //Global scope
-x = 10;
+x = 10; //when there is no keyword such as 'var' or 'let' the variable is a global
 function Foo() {
   console.log(x); // Prints 10
 }
