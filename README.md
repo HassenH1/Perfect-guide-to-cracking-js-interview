@@ -17,3 +17,5 @@ Learning these basic elements in depth to turn a JS interview favorable to mysel
 ### 7) Hoisting
 
 ### 8) Callback functions
+
+### 9) Understand the regular expressions well
