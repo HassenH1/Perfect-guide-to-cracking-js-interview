@@ -20,19 +20,18 @@ function circumference(radius) {
 circumference(2);
 console.log(
   pi,
-  "<-------this works because pi isnt a 'var' or 'let' so its globally changable"
+  "<this works because pi isnt a 'var' or 'let' so its globally and changeable"
 ); //3.14159
 
 // Block scope(Introduced in ES6)
 var a = 10;
-
 function Foo() {
   if (true) {
     let a = 4;
-    console.log(a, "<-------what this?"); //is is 4 within the scope of the conditional
+    console.log(a, "<-------what this?"); //is 4 within the scope of the conditional
   }
 
-  // alert(a); // alerts '10' because the 'let' keyword
+  // alert(a); // alerts '10' because the 'var' keyword
   console.log(a); // 10
 }
 Foo();
