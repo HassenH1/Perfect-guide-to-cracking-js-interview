@@ -8,7 +8,7 @@ Learning these basic elements in depth to turn a JS interview favorable to mysel
 
 ### 3) Understand this keyword well(global, function and object scopes)
 
-### 4) Understand objects well
+### 4) Understand objects well (unfinished)
 
 ### 5) Understand Prototypical Inheritance well (unfinished)
 
