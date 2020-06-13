@@ -15,3 +15,5 @@ Learning these basic elements in depth to turn a JS interview favorable to mysel
 ### 6) Pass By Value And Pass By Reference In JavaScript
 
 ### 7) Hoisting
+
+### 8)Callback functions
