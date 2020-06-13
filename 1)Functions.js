@@ -16,4 +16,5 @@ var square = function (n) {
   return n * n;
 };
 
-//TypeError: square is not a function because 'var square' is hoisted
+// TypeError: square is not a function because 'var square' is hoisted
+// Function Declarations Are Hoisted, but Function Expressions Are Not in JavaScript --------

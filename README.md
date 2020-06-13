@@ -4,13 +4,13 @@ Learning these basic elements in depth to turn a JS interview favorable to mysel
 
 ### 1) Understand the JS functions well
 
-### 2) Understand JavaScript scope well (Closures as well)
+### 2) Understand JavaScript scope well {Closures as well}
 
 ### 3) Understand this keyword well(global, function and object scopes)
 
 ### 4) Understand objects well
 
-### 5) Understand Prototypical Inheritance well
+### 5) Understand Prototypical Inheritance well (unfinished)
 
 ### 6) Pass By Value And Pass By Reference In JavaScript
 
@@ -18,6 +18,8 @@ Learning these basic elements in depth to turn a JS interview favorable to mysel
 
 ### 8) Callback functions
 
-### 9) Understand the regular expressions well
+### 9) Understand the regular expressions well (unfinished)
 
-### 10) Understand Map, Reduce and Filter well
+### 10) Understand Map, Reduce and Filter well (unfinished)
+
+### 11) Event Bubbling (unfinished)
