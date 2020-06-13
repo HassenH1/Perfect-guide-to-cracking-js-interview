@@ -7,3 +7,5 @@ var re = new RegExp("ar"); // This too works
 // Character classes Ex: [x-y] in range x to y, [^x] not x
 // Quantifiers Ex: +, ?, * (greedy and lazy matchers)
 // Boundaries Ex: ^(beginning of input), $(end of input)
+
+//unfinished
