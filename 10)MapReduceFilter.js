@@ -25,8 +25,19 @@ array.reduce( function(total, currentValue, currentIndex, arr), initialValue )
 
 // One practical application for reduce can be flattening an array of arrays. Flattening is converting internal arrays to one single array. For Ex:
 var arr = [[1, 2], [3, 4], [5, 6]];
-var flattenedArray = [1, 2, 3, 4, 5, 6];
 // We can achieve this by normal iteration. But using reduce, it is a straight code. Magic!
 var flattenedArray = arr.reduce((accumulator, currentValue) => {
     return accumulator.concat(currentValue);
 }, []); // returns [1, 2, 3, 4, 5, 6]
+
+//adding numbers
+const numbers = [1,-1,3,2]
+numbers.reduce((accumulator, currentValue) => {
+  console.log(accumulator)
+  return accumulator + currentValue
+}, /*accumlator is 0*/ 0)
+//steps
+//a = 0, c = 1 => a = 1
+//a = 1, c = -1 => a = 0
+//a = 0, c = 2 => a = 2
+//a = 2, c = 3 => a = 5
