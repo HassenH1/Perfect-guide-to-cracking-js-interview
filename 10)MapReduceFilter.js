@@ -41,3 +41,15 @@ numbers.reduce((accumulator, currentValue) => {
 //a = 1, c = -1 => a = 0
 //a = 0, c = 2 => a = 2
 //a = 2, c = 3 => a = 5
+
+// filter<-------------------------------------------
+// This is the third type of functional programming concept. It is close to map as it also processes each element in the array and finally returns another array(not returning a value like in reduce). The length of the filtered array can be less than or equal to the original array. Because the filtering condition we pass may exclude few/zero inputs in the output array. The general syntax for JS filter operation is:
+arr.filter((elem) => {
+   return true/false
+})
+// Here elem is the data element of the array and true/false should be returned from the function to indicate inclusion/exclusion of filtered element. The common example is to filter the array of words which starts and ends with given conditions. Suppose, we should filter an array of words which starts with t and ends with r.
+var words = ["tiger", "toast", "boat", "tumor", "track", "bridge"]
+var newData = words.filter((elem) => {
+   return elem.startsWith('t') && elem.endsWith('r') ? true:false;
+}); // returns ["tiger", "tumor"]
+// As you see, the original array is not changed in all three cases which are proving the purity of these functions.
