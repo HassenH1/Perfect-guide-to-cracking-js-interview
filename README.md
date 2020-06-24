@@ -23,3 +23,5 @@ Learning these basic elements in depth to turn a JS interview favorable to mysel
 ### 10) Understand Map, Reduce and Filter well
 
 ### 11) Event Bubbling & Event Capturing
+
+### 12) Big O Notation — Time and Space Complexity
