@@ -1,4 +1,5 @@
 //////////// Time
+//time complexity = a way of showing how the runtime of a function increases
 // --operations
 // --Comparisons
 // --Loop stuff
