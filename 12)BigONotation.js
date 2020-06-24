@@ -8,11 +8,26 @@ function log(array) {
 }
 
 // Linear Time => O(n)
+// Example
 logAll([1, 2, 3, 4, 5]);
 logAll([1, 2, 3, 4, 5, 6, 7, 8]);
 
 function logAll(array) {
   for (var i = 0; i < array.length; i++) {
     console.log(array[i]);
+  }
+}
+
+// Exponential Time => O(n^2) not good as data gets bigger
+// Example
+addAndLog(["A", "B", "C"]);
+addAndLog(["A", "B", "C", "D"]);
+addAndLog(["A", "B", "C", "D", "E"]);
+
+function addAndLog(array) {
+  for (var i = 0; i < array.length; i++) {
+    for (var j = 0; j < array.length; j++) {
+      console.log(array[i] + array[j]);
+    }
   }
 }
