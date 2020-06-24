@@ -1,3 +1,16 @@
+//////////// Time
+// --operations
+// --Comparisons
+// --Loop stuff
+// --Pointer reference
+// --function calls to outside
+
+/////////// Space
+// --Variables
+// --Data Structure
+// --Allocations
+// --Function calls
+
 // Constant Time (runtime doesn’t change whatever the input is) => O(1)
 // Example
 log([1, 2, 3, 4, 5]);
@@ -32,7 +45,7 @@ function addAndLog(array) {
   }
 }
 
-//Logarithmic => O(log n)
+//Logarithmic => O(log n) divide and conq
 function binarySearch(array, key) {
   var low = 0;
   var high = array.length - 1;
