@@ -32,7 +32,7 @@ function logAll(array) {
   }
 }
 
-// Exponential Time => O(n^2) not good as data gets bigger
+// Exponential Time/Quadratic Time => O(n^2) not good as data gets bigger
 // Example
 addAndLog(["A", "B", "C"]);
 addAndLog(["A", "B", "C", "D"]);
