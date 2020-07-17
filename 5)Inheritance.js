@@ -42,3 +42,7 @@ function x()
 prototype: x
 __proto__: function() //if you expand this it has a bunch of methods and properties and X is ultimately created from this Object
 */
+
+//creating subClass (subConstructor)
+//overriding in Prototype Chain
+//Adding prototype to Master Object
