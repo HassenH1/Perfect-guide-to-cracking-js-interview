@@ -66,8 +66,25 @@ var TechJob = function (title, pays) {
 };
 
 //i want to inherent from Job.prototype
+//Object. <------this is the master Object
 TechJob.prototype = Object.create(Job.prototype);
 //basically setting techJon function constructor as constructor
 TechJob.prototype.constructor = TechJob;
 //now create object from this subclass
-var softwarePosition = new TechJob("javascript developer");
+var softwarePosition = new TechJob("javascript developer", true);
+
+//now if you want to override the parent method prototype you can do this, comment out to leave the original parent method if needed
+TechJob.prototype.print = function () {
+  console.log(
+    this.pays
+      ? this.title + " is a great, hire me"
+      : "i would rather learn javascript"
+  );
+};
+
+//now imagine we removed both print methods from the base class and subclass (so comment those out for now)
+//now we are going to use the master object (Object.<insert whatever here>)
+
+var softwarePosition2 = new TechJob("vb programmer", false);
+console.log(softwarePosition.print()); //print() comes from the parent class even tho we created an instance of subclass. Basically the subclass is able to inherent all the feature from parentclass
+console.log(softwarePosition2.print());
