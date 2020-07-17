@@ -46,3 +46,28 @@ __proto__: function() //if you expand this it has a bunch of methods and propert
 //creating subClass (subConstructor)
 //overriding in Prototype Chain
 //Adding prototype to Master Object
+
+//base class
+var Job = function () {
+  this.pays = true;
+};
+
+//prototype method which is defined outside the parent class
+Job.prototype.print = function () {
+  console.log(this.pays ? "please hire me" : "no thanks");
+};
+
+//subclass
+var TechJob = function (title, pays) {
+  Job.call(this); //this line calls the Job function constructor and becomes the parent class
+  //this method allows the subclass(TechJob) to inherent all the properties and method defined inside the parent class(Job)
+  this.title = title;
+  this.pays = pays;
+};
+
+//i want to inherent from Job.prototype
+TechJob.prototype = Object.create(Job.prototype);
+//basically setting techJon function constructor as constructor
+TechJob.prototype.constructor = TechJob;
+//now create object from this subclass
+var softwarePosition = new TechJob("javascript developer");
