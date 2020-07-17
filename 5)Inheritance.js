@@ -84,6 +84,9 @@ TechJob.prototype.print = function () {
 
 //now imagine we removed both print methods from the base class and subclass (so comment those out for now)
 //now we are going to use the master object (Object.<insert whatever here>)
+Object.prototype.print = function () {
+  console.log("I am printing from the Master Object");
+}; //Object prototype methods is available to all objects
 
 var softwarePosition2 = new TechJob("vb programmer", false);
 console.log(softwarePosition.print()); //print() comes from the parent class even tho we created an instance of subclass. Basically the subclass is able to inherent all the feature from parentclass
